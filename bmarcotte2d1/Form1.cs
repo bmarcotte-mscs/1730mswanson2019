@@ -83,7 +83,7 @@ namespace bmarcotte2d1
             if (textBox2Input.Text == "")
                 textBox2Result.Text = "Success";
             if (textBox2Input.Text != "")
-                textBox2Result.Text = "Fail";
+                textBox2ResultB.Text = "Fail";
 
             decimal val3 = Convert.ToDecimal(textBox3Input.Text);
             if (val3 == 2.3m)
@@ -107,19 +107,19 @@ namespace bmarcotte2d1
             if (textBox6Input.Text != "Jones")
                 textBox6Result.Text = "Success";
             if (textBox6Input.Text == "Jones")
-                textBox6Result.Text = "Fail";
+                textBox6ResultB.Text = "Fail";
 
             decimal val7 = Convert.ToDecimal(textBox7Input.Text);
             if (val7 > 0)
                 textBox7Result.Text = "Success";
-            if (val7 < 0)
+            if (val7 == 0)
                 textBox7ResultB.Text = "Fail";
 
             decimal val8a = Convert.ToDecimal(textBox8InputA.Text);
             decimal val8b = Convert.ToDecimal(textBox8InputB.Text);
             if (val8a < val8b)
                 textBox8Result.Text = "Success";
-            if (val8a > val8b)
+            if (val8a == val8b)
                 textBox8ResultB.Text = "Fail";
 
             decimal val9 = Convert.ToDecimal(textBox9Input.Text);
